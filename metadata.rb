@@ -1,5 +1,5 @@
-maintainer       "Leonid"
 maintainer_email "agoddard@mbl.edu"
+maintainer       "Leonid"
 license           "Apache 2.0"
 description      "Installs/Configures Jira+Logstash+Elasticsearch+Kibana"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
