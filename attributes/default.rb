@@ -31,3 +31,8 @@ default['logstash']['elasticsearch_cluster'] = 'logstash'
 default['logstash']['elasticsearch_ip'] = '172.30.0.236'
 default['logstash']['elasticsearch_port'] = '9292'
 
+default['logstash']['agent']['inputs'] = [] 
+default['logstash']['agent']['outputs'] = ['udp'=>['host=>\'172.30.0.235\'', 'port=>\'8000\'']]
+default['logstash']['server']['inputs'] = ['udp'=>['port=>\'8000\'']]
+default['logstash']['server']['outputs'] = ['elasticsearch'=>[]]
+

@@ -1,4 +1,4 @@
-maintainer_email "agoddard@mbl.edu"
+maintainer_email "some@mail.com"
 maintainer       "Leonid"
 license           "Apache 2.0"
 description      "Installs/Configures Jira+Logstash+Elasticsearch+Kibana"
